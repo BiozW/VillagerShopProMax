@@ -31,6 +31,10 @@ public class ShopAnimation : MonoBehaviour
         ShopUI.DOFade(0, fadeTime);
         ScreenAndChangeButton.DOFade(0,fadeTime);
     }
+    public void StartAnimation()
+    {
+        FixInputKey();
+    }
 
     IEnumerator ItemAnimation()
     {
@@ -48,5 +52,16 @@ public class ShopAnimation : MonoBehaviour
     public void Clear()
     {
         items.Clear();
+    }
+
+    public void FixInputKey()
+    {
+        if (Input.GetKeyDown(KeyCode.W) ||Input.GetKeyDown(KeyCode.S) )
+        {
+        }
+        else
+        {
+            StartCoroutine("ItemAnimation");
+        }
     }
 }

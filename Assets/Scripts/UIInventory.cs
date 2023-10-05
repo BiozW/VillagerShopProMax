@@ -48,8 +48,8 @@ namespace Minecraft.InventorySystem
                 shopAnimation.items.Add(newItemUI.gameObject);
                 itemUIList.Add(newItemUI);
                 newItemUI.SetData(uiItemData);
-
             }
+            shopAnimation.StartAnimation();
         }
 
         //Destroy all created UIItem and then clear the list.

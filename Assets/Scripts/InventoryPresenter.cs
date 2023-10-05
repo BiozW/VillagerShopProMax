@@ -19,6 +19,7 @@ namespace Minecraft.InventorySystem
         //This list tells the UI what name and icon to set for each category.
         [SerializeField] List<CategoryInfo> categoryInfoList = new List<CategoryInfo>();
         public PurchaseManager purchaseManager;
+        public ShopAnimation shopAnimation;
 
         void Start()
         {
@@ -30,6 +31,7 @@ namespace Minecraft.InventorySystem
             if (Input.GetKeyDown(KeyCode.A))
             {
                 PrevCategory();
+                
             }
             else if (Input.GetKeyDown(KeyCode.D))
             {

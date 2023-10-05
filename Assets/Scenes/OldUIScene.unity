@@ -1763,6 +1763,7 @@ MonoBehaviour:
   currentItemIconImage: {fileID: 1996132737}
   itemUIPrefab: {fileID: 47375457}
   itemUIList: []
+  shopAnimation: {fileID: 2034170965}
 --- !u!114 &1067666586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1977,6 +1978,7 @@ MonoBehaviour:
   - name: Material
     icon: {fileID: 21300000, guid: 4b13538e9bc74eb4cbc9f04e2697433d, type: 3}
   purchaseManager: {fileID: 0}
+  shopAnimation: {fileID: 0}
 --- !u!4 &1068438890
 Transform:
   m_ObjectHideFlags: 0
@@ -4836,6 +4838,7 @@ MonoBehaviour:
   ShopUI: {fileID: 494669538}
   ScreenAndChangeButton: {fileID: 724694768}
   rectTransform: {fileID: 494669535}
+  items: []
 --- !u!1 &2034888808
 GameObject:
   m_ObjectHideFlags: 0
