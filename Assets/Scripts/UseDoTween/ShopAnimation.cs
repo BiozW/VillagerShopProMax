@@ -19,7 +19,7 @@ public class ShopAnimation : MonoBehaviour
         rectTransform.DOAnchorPos(new Vector2(0f,0f), fadeTime, false).SetEase(Ease.InOutQuint);
         ShopUI.DOFade(1, fadeTime);
         ScreenAndChangeButton.DOFade(1,fadeTime);
-        StartCoroutine("ItemAnimation");
+        UIBounceIn();
     }
 
     public void ShopOut()
@@ -31,12 +31,12 @@ public class ShopAnimation : MonoBehaviour
         ShopUI.DOFade(0, fadeTime);
         ScreenAndChangeButton.DOFade(0,fadeTime);
     }
-    public void StartAnimation()
+    public void StartBounce()
     {
-        FixInputKey();
+        FilterInputKey();
     }
 
-    IEnumerator ItemAnimation()
+    IEnumerator UIBounceIn()
     {
         foreach (var item in items)
         {
@@ -54,14 +54,14 @@ public class ShopAnimation : MonoBehaviour
         items.Clear();
     }
 
-    public void FixInputKey()
+    public void FilterInputKey()
     {
         if (Input.GetKeyDown(KeyCode.W) ||Input.GetKeyDown(KeyCode.S) )
         {
         }
         else
         {
-            StartCoroutine("ItemAnimation");
+            StartCoroutine("UIBounceIn");
         }
     }
 }
