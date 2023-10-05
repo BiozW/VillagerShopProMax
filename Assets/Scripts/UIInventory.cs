@@ -1,8 +1,10 @@
+using System.Collections;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using DG.Tweening;
 
 namespace Minecraft.InventorySystem
 {
@@ -17,6 +19,8 @@ namespace Minecraft.InventorySystem
         [Header("Item List")] 
         [SerializeField] UIItem itemUIPrefab;
         [SerializeField] List<UIItem> itemUIList = new List<UIItem>();
+
+        public ShopAnimation shopAnimation;
 
         void Start()
         {
@@ -41,8 +45,10 @@ namespace Minecraft.InventorySystem
                 
                 //Don't forget to enable it. Because the original UIItem was disabled from Start()
                 newItemUI.gameObject.SetActive(true);
+                shopAnimation.items.Add(newItemUI.gameObject);
                 itemUIList.Add(newItemUI);
                 newItemUI.SetData(uiItemData);
+
             }
         }
 
@@ -53,6 +59,7 @@ namespace Minecraft.InventorySystem
                 Destroy(uiItem.gameObject);
             
             itemUIList.Clear();
+            shopAnimation.Clear();
         }
     }
 

@@ -9,6 +9,7 @@ public class ShopAnimation : MonoBehaviour
     public CanvasGroup ShopUI;
     public CanvasGroup ScreenAndChangeButton;
     public RectTransform rectTransform;
+    public List<GameObject> items = new List<GameObject>();
 
     public void ShopIn()
     {
@@ -18,6 +19,7 @@ public class ShopAnimation : MonoBehaviour
         rectTransform.DOAnchorPos(new Vector2(0f,0f), fadeTime, false).SetEase(Ease.InOutQuint);
         ShopUI.DOFade(1, fadeTime);
         ScreenAndChangeButton.DOFade(1,fadeTime);
+        StartCoroutine("ItemAnimation");
     }
 
     public void ShopOut()
@@ -28,5 +30,23 @@ public class ShopAnimation : MonoBehaviour
         rectTransform.DOAnchorPos(new Vector2(0f,-1000f), fadeTime, false).SetEase(Ease.InOutQuint);
         ShopUI.DOFade(0, fadeTime);
         ScreenAndChangeButton.DOFade(0,fadeTime);
+    }
+
+    IEnumerator ItemAnimation()
+    {
+        foreach (var item in items)
+        {
+            item.transform.localScale = Vector3.zero;
+        }
+        foreach (var item in items)
+        {
+            item.transform.DOScale(1f,fadeTime).SetEase(Ease.OutBounce);
+            yield return new WaitForSeconds(0.25f);
+        }
+    }
+
+    public void Clear()
+    {
+        items.Clear();
     }
 }
