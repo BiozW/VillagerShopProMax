@@ -1,7 +1,10 @@
 using System;
 using System.Collections.Generic;
+using System.Collections;
+using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.Networking;
+using Newtonsoft.Json;
 
 
 namespace Minecraft.InventorySystem
@@ -16,12 +19,18 @@ namespace Minecraft.InventorySystem
 
         [SerializeField] UIInventory ui;
         [SerializeField] Inventory inventory;
-        public int pageSize;
+        [SerializeField] int pageSize;
+        [SerializeField] string urlLoadPath;
         
-        //This list tells the UI what name and icon to set for each category.
         [SerializeField] List<CategoryInfo> categoryInfoList = new List<CategoryInfo>();
+        [SerializeField] GameObject loadingScene;
+        [SerializeField] TMP_Text loadText;
         public PurchaseManager purchaseManager;
 
+        private void Awake()
+        {
+            LoadScoreFromGoogleDrive();
+        }
         void Start()
         {
             RefreshUI();
@@ -171,6 +180,39 @@ namespace Minecraft.InventorySystem
             
             //Draw the results! Convert to array to prevent the results from being changed accidentally.
             ui.SetItemList(uiDataList.ToArray());
+        }
+        IEnumerator LoadScoreRoutine(string url)
+        {
+            UnityWebRequest webRequest = UnityWebRequest.Get(url);
+            DownloadHandler handle = webRequest.downloadHandler;
+            loadingScene.SetActive(true);
+            webRequest.SendWebRequest();
+            while (!webRequest.isDone)
+            {
+                loadText.text = "Loading: " + (int)(webRequest.downloadProgress * 100f) + "%";
+                Debug.Log("0");
+                yield return null;
+            }
+            loadingScene.SetActive(false);
+
+            if (webRequest.result != UnityWebRequest.Result.Success)
+            {
+                Debug.LogError(webRequest.error);
+            }
+            else
+            {
+                var downloadedText = webRequest.downloadHandler.text;
+                Debug.Log("Receive Data : " + downloadedText);
+                inventory.itemList = JsonConvert.DeserializeObject<List<ItemData>>(downloadedText);
+            }
+            
+            RefreshUI();
+        }
+
+        [ContextMenu(nameof(LoadScoreFromGoogleDrive))]
+        void LoadScoreFromGoogleDrive()
+        {
+            StartCoroutine(LoadScoreRoutine(urlLoadPath));
         }
     }
 }
