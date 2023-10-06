@@ -5,15 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
+    public ShopAnimation shopAnimation;
     public GameObject ShopUI;
     public void changeSceneToNewScene()
     {
-        SceneManager.LoadScene("NewUISceneOpt");
+        SceneManager.LoadScene("VerticalUI");
     }
 
     public void changeSceneToMainScene()
     {
-        SceneManager.LoadScene("OldUISceneOpt");
+        SceneManager.LoadScene("HorizonUI");
     }
 
     public void CloseShopUI()

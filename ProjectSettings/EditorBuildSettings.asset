@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/NewUISceneOpt.unity
+    path: Assets/Scenes/VerticalUI.unity
     guid: c002bc413e75d0e4b8a56d4922c96909
   - enabled: 1
-    path: Assets/Scenes/OldUISceneOpt.unity
+    path: Assets/Scenes/HorizonUI.unity
     guid: 6629bb91b8d7b7c47bd60859a5014f1c
   m_configObjects: {}
