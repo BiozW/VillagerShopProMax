@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OldUIScene.unity
-    guid: 60843a33737739e4a93bb4dc5798305b
+    path: Assets/Scenes/NewUISceneOpt.unity
+    guid: c002bc413e75d0e4b8a56d4922c96909
   - enabled: 1
-    path: Assets/Scenes/NewUIScene.unity
-    guid: 56ec62648a645b1488c7f3cc8ded3073
+    path: Assets/Scenes/OldUISceneOpt.unity
+    guid: 6629bb91b8d7b7c47bd60859a5014f1c
   m_configObjects: {}
