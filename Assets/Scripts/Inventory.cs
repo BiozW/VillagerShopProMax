@@ -8,9 +8,9 @@ namespace Minecraft.InventorySystem
     public class Inventory : MonoBehaviour
     {
         public ItemData[] Items => itemList.ToArray();
-        [SerializeField] List<ItemData> itemList = new List<ItemData>();
+        [SerializeField] public List<ItemData> itemList = new List<ItemData>();
         
-        public ItemSpriteData[] ItemSprites => ItemSprites.ToArray();
+        public ItemSpriteData[] ItemSprites => itemSprites.ToArray();
         [SerializeField] public List<ItemSpriteData> itemSprites = new List<ItemSpriteData>();
 
         public ItemData[] GetItemsByType(ItemType targetType)
@@ -21,18 +21,16 @@ namespace Minecraft.InventorySystem
             {
                 if (itemData.type == targetType)
                 {
-                    int i = 0;
                     foreach (var itemSprite in ItemSprites)
                     {
                         if (itemData.displayName == itemSprite.displayName)
                         {
                             itemData.icon = itemSprite.icon;
                         }
-                        i++;
                     }
                     resultList.Add(itemData);
                 }
-                return resultList.ToArray();
+                //return resultList.ToArray();
             }
                    
 

@@ -623,6 +623,140 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &301705880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 301705881}
+  - component: {fileID: 301705883}
+  - component: {fileID: 301705882}
+  m_Layer: 5
+  m_Name: LoadText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &301705881
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301705880}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.20372409, y: 0.30483666, z: 0.23319274}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1577678725}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.08150613, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &301705882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301705880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: Loading...
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: -9145405975192645531, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 32
+  m_fontSizeBase: 32
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &301705883
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 301705880}
+  m_CullTransparentMesh: 1
 --- !u!1 &461089689
 GameObject:
   m_ObjectHideFlags: 0
@@ -698,6 +832,7 @@ RectTransform:
   - {fileID: 20582448}
   - {fileID: 1821651073}
   - {fileID: 2034888809}
+  - {fileID: 1577678725}
   m_Father: {fileID: 2034170963}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1433,133 +1568,175 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemList:
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  itemSprites:
   - displayName: Amethyst
-    description: Buy Amethyst
     icon: {fileID: 21300000, guid: 443289b888689d544aad8884ce87481d, type: 3}
-    type: 2
-    cost: 2
-    count: 3
   - displayName: Bread
-    description: Buy Bread
     icon: {fileID: 21300000, guid: bda28b75f5b01e24495dfa0767ba37f0, type: 3}
-    type: 1
-    cost: 2
-    count: 3
   - displayName: Carrot
-    description: Buy Carrot
     icon: {fileID: 21300000, guid: 63d2c7edc28a622449c7e0b2cc111586, type: 3}
-    type: 1
-    cost: 2
-    count: 4
   - displayName: Cooked_Chicken
-    description: Buy Cooked Chicken
     icon: {fileID: 21300000, guid: 5a50312a6f66ac645ab268e537a4c0b9, type: 3}
-    type: 1
-    cost: 3
-    count: 3
-  - displayName: Steak
-    description: Buy Steak
-    icon: {fileID: 21300000, guid: 451055008a2684942aa4139389e1378c, type: 3}
-    type: 1
-    cost: 3
-    count: 3
   - displayName: Diamond
-    description: Buy Diamond
     icon: {fileID: 21300000, guid: d3efbd9308438a3408ec2ae8dd1ca37d, type: 3}
-    type: 2
-    cost: 6
-    count: 2
   - displayName: Diamond_Axe
-    description: Buy Diamond Axe
     icon: {fileID: 21300000, guid: 2fa1133b0b91d08499f359f58c42890a, type: 3}
-    type: 0
-    cost: 12
-    count: 1
   - displayName: Diamond_Pickaxe
-    description: Buy Diamon Pickaxe
     icon: {fileID: 21300000, guid: 2aa38615b3d349548b9473485feb5c1d, type: 3}
-    type: 0
-    cost: 12
-    count: 1
   - displayName: Diamond_Shovel
-    description: Buy Diamond Shovel
     icon: {fileID: 21300000, guid: 4e345c7f4221a2e42906623e1e1231d9, type: 3}
-    type: 0
-    cost: 4
-    count: 1
   - displayName: Diamond_Sword
-    description: Buy Diamond Sword
     icon: {fileID: 21300000, guid: cbda3e72f34039e44adb19407aec1b93, type: 3}
-    type: 0
-    cost: 8
-    count: 1
   - displayName: Gold_Ingot
-    description: Buy Gold Ingot
     icon: {fileID: 21300000, guid: 93b41d56fc3ef5245b238f932983b54c, type: 3}
-    type: 2
-    cost: 2
-    count: 3
   - displayName: Golden_Apple
-    description: Buy Golden Apple
     icon: {fileID: 21300000, guid: a0b337f453289de44b659b707c468b2d, type: 3}
-    type: 1
-    cost: 4
-    count: 1
   - displayName: Golden_Carrot
-    description: Buy Golden Carrot
     icon: {fileID: 21300000, guid: 8f9c33991d20ffc49b26850292f26450, type: 3}
-    type: 1
-    cost: 2
-    count: 2
   - displayName: Iron_Axe
-    description: Buy Iron Axe
     icon: {fileID: 21300000, guid: 56450ff247d77a1498a82f7cd7e3ed3d, type: 3}
-    type: 0
-    cost: 9
-    count: 1
   - displayName: Iron_Ingot
-    description: Buy Iron Ingot
     icon: {fileID: 21300000, guid: bb9ee16974fc07b46975ad099afe7597, type: 3}
-    type: 2
-    cost: 6
-    count: 2
   - displayName: Iron_Pickaxe
-    description: Buy Iron_Pickaxe
     icon: {fileID: 21300000, guid: 2320b20164697a547b37a3ee501bfe96, type: 3}
-    type: 0
-    cost: 9
-    count: 1
   - displayName: Iron_Shovel
-    description: Buy Iron Shovel
     icon: {fileID: 21300000, guid: 4dfa8e709f7052c469c8c37d170d74cb, type: 3}
-    type: 0
-    cost: 3
-    count: 1
   - displayName: Iron_Sword
-    description: Buy Iron Sword
     icon: {fileID: 21300000, guid: 63800b7e30e743646ae796847f3540a4, type: 3}
-    type: 0
-    cost: 6
-    count: 1
   - displayName: Lapis_Lazuil
-    description: Buy Lapis
     icon: {fileID: 21300000, guid: ed9b83745e8e8aa4ebd531cdec60ecfa, type: 3}
-    type: 2
-    cost: 2
-    count: 6
-  - displayName: Redstone_Dust
-    description: Buy Restone Dust
+  - displayName: Redstone
     icon: {fileID: 21300000, guid: 9e357a97b2be27e4bb53476906b8dd4a, type: 3}
-    type: 2
-    cost: 3
-    count: 12
+  - displayName: Steak
+    icon: {fileID: 21300000, guid: 451055008a2684942aa4139389e1378c, type: 3}
   - displayName: Durian
-    description: Buy Durian
     icon: {fileID: 21300000, guid: 9e6b9b61a4efc1c4e98172a289b49612, type: 3}
-    type: 3
-    cost: 64
-    count: 1
-  itemSprites: []
 --- !u!4 &1068438890
 Transform:
   m_ObjectHideFlags: 0
@@ -1590,6 +1767,7 @@ MonoBehaviour:
   ui: {fileID: 1067666585}
   inventory: {fileID: 1068438888}
   pageSize: 8
+  urlLoadPath: https://drive.google.com/uc?export=download&id=13li2CKEd0QcagYYPSN4cYfUs_AyYnr_x
   categoryInfoList:
   - name: Weapon
     icon: {fileID: 21300000, guid: 63800b7e30e743646ae796847f3540a4, type: 3}
@@ -1597,6 +1775,8 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: bda28b75f5b01e24495dfa0767ba37f0, type: 3}
   - name: Material
     icon: {fileID: 21300000, guid: 4b13538e9bc74eb4cbc9f04e2697433d, type: 3}
+  loadingScene: {fileID: 1577678724}
+  loadText: {fileID: 301705882}
   purchaseManager: {fileID: 1598589243}
 --- !u!1 &1131745491
 GameObject:
@@ -2957,6 +3137,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575679097}
+  m_CullTransparentMesh: 1
+--- !u!1 &1577678724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577678725}
+  - component: {fileID: 1577678727}
+  - component: {fileID: 1577678726}
+  m_Layer: 5
+  m_Name: LoadScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1577678725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577678724}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.4672632, y: 0.9805804, z: 1.2818445}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 301705881}
+  m_Father: {fileID: 494669535}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.77716756, y: 72.45151}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1577678726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577678724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19215687, g: 0.19215687, b: 0.19215687, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1577678727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577678724}
   m_CullTransparentMesh: 1
 --- !u!1 &1598589241
 GameObject:
