@@ -219,7 +219,6 @@ namespace Minecraft.InventorySystem
             while (!webRequest.isDone)
             {
                 loadText.text = "Loading: " + (int)(webRequest.downloadProgress * 100f) + "%";
-                Debug.Log("0");
                 yield return null;
             }
             loadingScene.SetActive(false);

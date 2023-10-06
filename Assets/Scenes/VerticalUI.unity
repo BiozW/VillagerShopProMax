@@ -2529,7 +2529,6 @@ GameObject:
   - component: {fileID: 1067666587}
   - component: {fileID: 1067666585}
   - component: {fileID: 1067666588}
-  - component: {fileID: 1067666589}
   m_Layer: 5
   m_Name: ShopGroup
   m_TagString: Untagged
@@ -2606,20 +2605,6 @@ MonoBehaviour:
   m_Spacing: {x: 5, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 2
---- !u!114 &1067666589
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1067666583}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7de38e84a5cd77546ba9a8fd47689374, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeTime: 1
-  ShopUI: {fileID: 0}
 --- !u!1 &1068438887
 GameObject:
   m_ObjectHideFlags: 0

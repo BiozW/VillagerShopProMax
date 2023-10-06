@@ -19,7 +19,6 @@ namespace Minecraft.InventorySystem
             description.text = descriptionShow;
            // description.text = "Show Four Items In Total";
             description.color = Color.yellow;
-            Debug.Log("tid voy");
         }
         public void OnPointerExit(PointerEventData eventData)
         {
