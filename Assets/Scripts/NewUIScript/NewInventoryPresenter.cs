@@ -27,6 +27,7 @@ namespace Minecraft.InventorySystem
         [SerializeField] GameObject loadingScene;
         [SerializeField] TMP_Text loadText;
         public PurchaseManager purchaseManager;
+        public ShopAnimation shopAnimation;
 
         private void Awake()
         {
@@ -72,8 +73,14 @@ namespace Minecraft.InventorySystem
                 
             }
 
-            else if(Input.GetKey(KeyCode.F))
+            else if(Input.GetKey(KeyCode.E))
             {
+                shopAnimation.ShopIn();
+            }
+
+            else if(Input.GetKey(KeyCode.Escape))
+            {
+                shopAnimation.ShopOut();
             }
         }
         public void SetPageSmall()
