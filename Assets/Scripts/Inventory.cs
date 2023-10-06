@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace Minecraft.InventorySystem
@@ -8,6 +9,9 @@ namespace Minecraft.InventorySystem
     {
         public ItemData[] Items => itemList.ToArray();
         [SerializeField] List<ItemData> itemList = new List<ItemData>();
+        
+        public ItemSpriteData[] ItemSprites => ItemSprites.ToArray();
+        [SerializeField] public List<ItemSpriteData> itemSprites = new List<ItemSpriteData>();
 
         public ItemData[] GetItemsByType(ItemType targetType)
         {
@@ -16,21 +20,24 @@ namespace Minecraft.InventorySystem
             foreach (var itemData in itemList)
             {
                 if (itemData.type == targetType)
+                {
+                    int i = 0;
+                    foreach (var itemSprite in ItemSprites)
+                    {
+                        if (itemData.displayName == itemSprite.displayName)
+                        {
+                            itemData.icon = itemSprite.icon;
+                        }
+                        i++;
+                    }
                     resultList.Add(itemData);
+                }
+                return resultList.ToArray();
             }
+                   
 
             //Return the result as Array not List. Because we don't want caller to modify the result afterward.
             return resultList.ToArray();
-        }
-
-        public void Add(ItemData itemToAdd)
-        {
-            
-        }
-
-        public void Remove(ItemData itemToRemove)
-        {
-            
         }
     }
 
@@ -43,6 +50,12 @@ namespace Minecraft.InventorySystem
         public ItemType type;
         public int cost;
         public int count;
+    }
+    [Serializable]
+    public class ItemSpriteData
+    {
+        public string displayName;
+        public Sprite icon;
     }
 
     public enum ItemType

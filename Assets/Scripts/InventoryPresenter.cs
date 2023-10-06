@@ -1,6 +1,9 @@
 using System;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Networking;
+using Newtonsoft.Json;
 
 namespace Minecraft.InventorySystem
 {
@@ -16,8 +19,9 @@ namespace Minecraft.InventorySystem
         [SerializeField] Inventory inventory;
         [SerializeField] int pageSize;
         
-        //This list tells the UI what name and icon to set for each category.
         [SerializeField] List<CategoryInfo> categoryInfoList = new List<CategoryInfo>();
+        [SerializeField] GameObject loadingScene;
+        [SerializeField] TMP_Text loadText;
         public PurchaseManager purchaseManager;
 
         void Start()
@@ -152,5 +156,7 @@ namespace Minecraft.InventorySystem
             //Draw the results! Convert to array to prevent the results from being changed accidentally.
             ui.SetItemList(uiDataList.ToArray());
         }
+        // [ContextMenu(nameof(LoadData))]
+        // IEnumerator LoadData
     }
 }

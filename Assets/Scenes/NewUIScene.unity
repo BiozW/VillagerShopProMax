@@ -1559,6 +1559,7 @@ MonoBehaviour:
     type: 3
     cost: 64
     count: 1
+  itemSprites: []
 --- !u!4 &1068438890
 Transform:
   m_ObjectHideFlags: 0
