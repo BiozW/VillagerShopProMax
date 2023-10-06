@@ -257,8 +257,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -358,14 +358,14 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 39294806}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1029501396}
   m_Father: {fileID: 2034170963}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 769, y: -454}
@@ -1400,8 +1400,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 3
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1534,8 +1534,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: All
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1720,8 +1720,8 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2197,133 +2197,175 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemList:
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  - displayName: 
+    description: 
+    icon: {fileID: 0}
+    type: 0
+    cost: 0
+    count: 0
+  itemSprites:
   - displayName: Amethyst
-    description: Buy Amethyst
     icon: {fileID: 21300000, guid: 443289b888689d544aad8884ce87481d, type: 3}
-    type: 2
-    cost: 2
-    count: 3
   - displayName: Bread
-    description: Buy Bread
     icon: {fileID: 21300000, guid: bda28b75f5b01e24495dfa0767ba37f0, type: 3}
-    type: 1
-    cost: 2
-    count: 3
   - displayName: Carrot
-    description: Buy Carrot
     icon: {fileID: 21300000, guid: 63d2c7edc28a622449c7e0b2cc111586, type: 3}
-    type: 1
-    cost: 2
-    count: 4
   - displayName: Cooked_Chicken
-    description: Buy Cooked Chicken
     icon: {fileID: 21300000, guid: 5a50312a6f66ac645ab268e537a4c0b9, type: 3}
-    type: 1
-    cost: 3
-    count: 3
-  - displayName: Steak
-    description: Buy Steak
-    icon: {fileID: 21300000, guid: 451055008a2684942aa4139389e1378c, type: 3}
-    type: 1
-    cost: 3
-    count: 3
   - displayName: Diamond
-    description: Buy Diamond
     icon: {fileID: 21300000, guid: d3efbd9308438a3408ec2ae8dd1ca37d, type: 3}
-    type: 2
-    cost: 6
-    count: 2
   - displayName: Diamond_Axe
-    description: Buy Diamond Axe
     icon: {fileID: 21300000, guid: 2fa1133b0b91d08499f359f58c42890a, type: 3}
-    type: 0
-    cost: 12
-    count: 1
   - displayName: Diamond_Pickaxe
-    description: Buy Diamon Pickaxe
     icon: {fileID: 21300000, guid: 2aa38615b3d349548b9473485feb5c1d, type: 3}
-    type: 0
-    cost: 12
-    count: 1
   - displayName: Diamond_Shovel
-    description: Buy Diamond Shovel
     icon: {fileID: 21300000, guid: 4e345c7f4221a2e42906623e1e1231d9, type: 3}
-    type: 0
-    cost: 4
-    count: 1
   - displayName: Diamond_Sword
-    description: Buy Diamond Sword
     icon: {fileID: 21300000, guid: cbda3e72f34039e44adb19407aec1b93, type: 3}
-    type: 0
-    cost: 8
-    count: 1
   - displayName: Gold_Ingot
-    description: Buy Gold Ingot
     icon: {fileID: 21300000, guid: 93b41d56fc3ef5245b238f932983b54c, type: 3}
-    type: 2
-    cost: 2
-    count: 3
   - displayName: Golden_Apple
-    description: Buy Golden Apple
     icon: {fileID: 21300000, guid: a0b337f453289de44b659b707c468b2d, type: 3}
-    type: 1
-    cost: 4
-    count: 1
   - displayName: Golden_Carrot
-    description: Buy Golden Carrot
     icon: {fileID: 21300000, guid: 8f9c33991d20ffc49b26850292f26450, type: 3}
-    type: 1
-    cost: 2
-    count: 2
   - displayName: Iron_Axe
-    description: Buy Iron Axe
     icon: {fileID: 21300000, guid: 56450ff247d77a1498a82f7cd7e3ed3d, type: 3}
-    type: 0
-    cost: 9
-    count: 1
   - displayName: Iron_Ingot
-    description: Buy Iron Ingot
     icon: {fileID: 21300000, guid: bb9ee16974fc07b46975ad099afe7597, type: 3}
-    type: 2
-    cost: 6
-    count: 2
   - displayName: Iron_Pickaxe
-    description: Buy Iron_Pickaxe
     icon: {fileID: 21300000, guid: 2320b20164697a547b37a3ee501bfe96, type: 3}
-    type: 0
-    cost: 9
-    count: 1
   - displayName: Iron_Shovel
-    description: Buy Iron Shovel
     icon: {fileID: 21300000, guid: 4dfa8e709f7052c469c8c37d170d74cb, type: 3}
-    type: 0
-    cost: 3
-    count: 1
   - displayName: Iron_Sword
-    description: Buy Iron Sword
     icon: {fileID: 21300000, guid: 63800b7e30e743646ae796847f3540a4, type: 3}
-    type: 0
-    cost: 6
-    count: 1
   - displayName: Lapis_Lazuil
-    description: Buy Lapis
     icon: {fileID: 21300000, guid: ed9b83745e8e8aa4ebd531cdec60ecfa, type: 3}
-    type: 2
-    cost: 2
-    count: 6
-  - displayName: Redstone_Dust
-    description: Buy Restone Dust
+  - displayName: Redstone
     icon: {fileID: 21300000, guid: 9e357a97b2be27e4bb53476906b8dd4a, type: 3}
-    type: 2
-    cost: 3
-    count: 12
+  - displayName: Steak
+    icon: {fileID: 21300000, guid: 451055008a2684942aa4139389e1378c, type: 3}
   - displayName: Durian
-    description: Buy Durian
     icon: {fileID: 21300000, guid: 9e6b9b61a4efc1c4e98172a289b49612, type: 3}
-    type: 3
-    cost: 64
-    count: 1
-  itemSprites: []
 --- !u!4 &1068438890
 Transform:
   m_ObjectHideFlags: 0
@@ -2903,8 +2945,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: A
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3171,8 +3213,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: All
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3305,8 +3347,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 2
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3573,8 +3615,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: IV
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3860,8 +3902,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 64
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4179,8 +4221,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 999
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4389,8 +4431,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: desc
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4523,8 +4565,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: D
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4657,8 +4699,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '>'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5059,8 +5101,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 1
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5360,8 +5402,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: VI
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5693,8 +5735,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: VIII
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0a536cb47435006419f5050491b23d55, type: 2}
+  m_sharedMaterial: {fileID: 3388148403086025210, guid: 0a536cb47435006419f5050491b23d55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

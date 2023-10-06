@@ -4,6 +4,7 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.SceneManagement;
 using Newtonsoft.Json;
 
 
@@ -77,17 +78,38 @@ namespace Minecraft.InventorySystem
         }
         public void SetPageSmall()
         {
-            pageSize = 4;
+            if(SceneManager.sceneCountInBuildSettings == 1)
+            {
+                pageSize = 3;
+            }
+            else
+            {
+                pageSize = 4;
+            }
             RefreshUI();
         }
         public void SetPageMedium()
         {
-            pageSize = 6;
+            if(SceneManager.sceneCountInBuildSettings == 1)
+            {
+                pageSize = 5;
+            }
+            else
+            {
+                pageSize = 6;
+            }
             RefreshUI();
         }
         public void SetPageLarge()
         {
-            pageSize = 8;
+            if(SceneManager.sceneCountInBuildSettings == 1)
+            {
+                pageSize = 7;
+            }
+            else
+            {
+                pageSize = 8;
+            }
             RefreshUI();
         }
 
